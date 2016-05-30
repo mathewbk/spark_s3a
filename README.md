@@ -18,3 +18,6 @@ Note in the PySpark script that I am using the HiveContext and not the SQLContex
 
 In short, it’s easier to use the HiveContext; however, this can be done using the SQLContext. 
 
+To run the code on YARN:
+/usr/hdp/2.4.0.0-169/spark/bin/spark-submit --master yarn-client --properties-file <your_properties_file.conf> <your_pyspark_script.py>
+
